@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
+
+</head>
+<body>
+    <button id="chime">
+        <audio id="chimefx" src="chime.wav" autoplay="false" ></audio>
+        <a onclick="playSound1();"> Click for Chime</a>
+    </button>
+    <button id="boxing_bell">
+        <audio id="bellfx" src="boxing_bell.wav" autoplay="false" ></audio>
+        <a onclick="playSound2();"> Click for Bell</a>
+    </button>
+    <button id="boing">
+        <audio id="boingfx" src="boing_spring.wav" autoplay="false" ></audio>
+        <a onclick="playSound3();"> Click for "Boing"</a>
+    </button>
+    <script src="soundboard.js"></script>
+</body>
+</html>
